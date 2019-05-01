@@ -64,17 +64,17 @@ if __name__=='__main__':
     faceCascade = cv2.CascadeClassifier(path_cascade)
 
     # Initialize Local Binary Patterns Histogram face recognizer
-    face_recognizer = cv2.createLBPHFaceRecognizer()
+    face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 
     # Extract images, labels, and label encoder from training dataset
     imgs, labels, le = getting_images_and_labels(train_img_path)
 
     # Train the face recognizer 
-    print "\nTraining..."
+    print ("\nTraining...")
     face_recognizer.train(imgs, np.array(labels))
 
     # Test the recognizer on unknown images
-    print '\nPerforming prediction on test images...'
+    print ('\nPerforming prediction on test images...')
     flag_stop = False
     for roots, dirs, files in os.walk(path_img_test):
         for fname in (x for x in files if x.endswith('.jpg')):
