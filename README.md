@@ -1,3 +1,7 @@
+# CAUTION!!
+
+REMOVED ALL FILES EXCEPT CHAPTER 8
+
 # Raspberry Pi 3 Cookbook for Python Programmers - Third Edition
 This is the code repository for [Raspberry Pi 3 Cookbook for Python Programmers - Third Edition](https://www.packtpub.com/hardware-and-creative/raspberry-pi-3-cookbook-python-programmers-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788629874), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
